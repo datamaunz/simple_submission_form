@@ -6,6 +6,14 @@ def main():
     page_title="Test",
     page_icon = "🦉")
     
+    # logos
+    
+    col1, col2 = st.columns(2)
+    col1.image("https://www.principia-advisory.com/wp-content/themes/principia/assets/images/Principia_logo_@2x.png", width=100)
+    col2.markdown("<img align='right' width='100' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png'>", unsafe_allow_html=True)
+    
+    # questions
+    
     st.markdown("""## Responsible Innovation Best Practice Collector""")
     st.markdown("""---""")
     
