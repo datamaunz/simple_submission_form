@@ -6,8 +6,11 @@ def main():
     page_title="Test",
     page_icon = "🦉")
     
-    practice = st.text_input("Please describe the practice?", value="")
-    why_best_practice = st.text_input("What makes this practice a best practice?", value="")
+    st.markdown("""## Responsible Innovation Best Practice Collector""")
+    st.markdown("""---""")
+    
+    practice = st.text_area("Please describe the practice?", value="")
+    why_best_practice = st.text_area("What makes this practice a best practice?", value="")
     where_can_we_learn_more  = st.text_input("Where can we learn more about this?", value="")
     email = st.text_input("Please leave your email address", value="")
     
