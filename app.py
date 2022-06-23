@@ -8,11 +8,15 @@ def main():
     
     # logos
     
-    col1, col2 = st.columns(2)
+    #col1, col2 = st.columns(2)
     #col1.image("https://www.principia-advisory.com/wp-content/themes/principia/assets/images/Principia_logo_@2x.png", width=100)
     
-    col1.markdown("<img align='left' width='20%' src='https://www.principia-advisory.com/wp-content/themes/principia/assets/images/Principia_logo_@2x.png'>", unsafe_allow_html=True)
-    col2.markdown("<img align='right' width='20%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png'>", unsafe_allow_html=True)
+    #col1.markdown("<img align='left' width='20%' src='https://www.principia-advisory.com/wp-content/themes/principia/assets/images/Principia_logo_@2x.png'>", unsafe_allow_html=True)
+    #col2.markdown("<img align='right' width='20%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png'>", unsafe_allow_html=True)
+    
+    
+    st.markdown("<div><img align='left' width='15%' src='https://www.principia-advisory.com/wp-content/themes/principia/assets/images/Principia_logo_@2x.png'><img align='right' width='15%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png'></div>", unsafe_allow_html=True)
+    #col2.markdown("<img align='right' width='20%' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/150px-Google_%22G%22_Logo.svg.png'>", unsafe_allow_html=True)
     
     # questions
     
